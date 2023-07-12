@@ -8,7 +8,7 @@ from gemmi import cif
 from werkzeug.datastructures import FileStorage
 
 from .base import Reader
-from ..models import File
+from converter_app.models import File
 
 logger = logging.getLogger(__name__)
 
